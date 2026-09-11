@@ -22,12 +22,17 @@
               border: 0px;
             }
             canvas {
-                      image-rendering: optimizeSpeed;
-                      -webkit-interpolation-mode: nearest-neighbor;
-                      -ms-touch-action: none;
-                      margin: 0px;
-                      padding: 0px;
-                      border: 0px;
+                    image-rendering: optimizeSpeed;
+                    -webkit-interpolation-mode: nearest-neighbor;
+                    -ms-touch-action: none;
+                    margin: 0px;
+                    padding: 0px;
+                    border: 0px;
+
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    max-width: 100%;
             }
             :-webkit-full-screen #canvas {
                  width: 100%;
@@ -38,6 +43,9 @@
               margin: 0px;
               padding: 0px;
               border: 0px;
+              width: 100%;
+              max-width: 100%;
+              overflow: hidden;
             }
             /* START - Login Dialog Box */
             div.gm4html5_login
